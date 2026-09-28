@@ -1,0 +1,49 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #EFEFEF;
+    width: 100%;
+    height: 55px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0px 16px;
+
+}
+.navbarList {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 28px;
+    color:#1A1A1A;
+    text-decoration: none;
+}
+
+.navbarItems {
+    font-size: 16px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.navbarItems:hover {
+    color: #1A1A1A;
+}
