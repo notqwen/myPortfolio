@@ -1,3 +1,15 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
 body {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -42,8 +54,31 @@ nav {
     font-size: 16px;
     color: #737373;
     text-decoration: none;
+    transition: color 0.3s ease;
+    animation: fadeIn 1s ease;
 }
 
 .navbarItems:hover {
     color: #1A1A1A;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.portfolioTitle {
+
+}
+
+
+.mainCase {
+    border: 2px solid #1A1A1A;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }
