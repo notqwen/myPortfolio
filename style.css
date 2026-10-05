@@ -103,3 +103,80 @@ h1 {
     border-bottom: 1px solid #EFEFEF;
     height: 550px;
 }
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+.aboutCases {
+    background: #F7F7F7;
+    height: 300px;
+    width: 400px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.5);
+    transition: transform 1s;
+}
+
+.aboutCases:hover {
+    transform: translateY(4px);
+}
+
+.nameAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 25px;
+}
+
+#about {
+    border-bottom: 1px solid #EFEFEF;
+    height: 550px;
+}
+
+.h2TextSize {
+    font-size: 40px;
+}
+
+#skills {
+    border-bottom: 1px solid #EFEFEF;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.skillsBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 450px;
+    width: 800px;
+
+}
+
+.miniBoxes {
+    background: #F7F7F7;
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.5);
+    transition: transform 1s;
+}
+
+.miniBoxes:hover {
+    transform: translateY(4px);
+}
+
+.skillsName {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
