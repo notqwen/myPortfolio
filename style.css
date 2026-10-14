@@ -69,6 +69,10 @@ h1 {
 }
 
 .case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
     border-radius: 10px;
     background: #F7F7F7;
     box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.2);
@@ -77,7 +81,7 @@ h1 {
 
 .mainSize {
     width: 600px; 
-    height: 400px;
+    height: 370px;
 }
 
 .aboutSize {
@@ -86,7 +90,7 @@ h1 {
 }
 
 .skillsSize {
-    width: 375px;
+    width: 350px;
     height: 300px;
     margin: 10px;
 }
@@ -161,7 +165,7 @@ h1 {
     align-items: center;
     border-bottom: 1px solid #EFEFEF;
     height: 750px;
-    padding: 0px 30px;
+    padding: 0px 5px;
 }
 
 .skillsBox {
@@ -218,4 +222,112 @@ h1 {
     width: 200px;
     display: flex;
     justify-content: space-around;
+}
+
+
+/* Верхняя панель окна */
+.caseHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    min-height: 35px;
+}
+
+.caseHeaderDots {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background: #ff6058;
+}
+
+.yellow {
+    background: #febc2e;
+}
+
+.green {
+    background: #28c840;
+}
+
+.codeFont {
+    font-size: 12px;
+    color: #737373;
+    font-weight: 600;
+}
+
+.caseMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    box-sizing: border-box;
+    width: calc(100% - 30px);
+    height: 320px;
+    padding: 20px;
+
+    background: #FEFEFE;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.codeLabel {
+    margin-bottom: 15px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #999999;
+}
+
+.codeContent {
+    margin: 0;
+    white-space: pre;
+    font-family: "SFMono-Regular", Consolas, monospace;
+    font-size: 12px;
+    line-height: 1.65;
+    color: #333333;
+}
+
+.codeContent code {
+    font-family: inherit;
+}
+
+.purple {
+    color: #8755bd;
+}
+
+.greenFont {
+    color: #27845b;
+}
+
+.blue {
+    color: #3975c6;
+}
+
+/* Нижняя панель */
+.caseFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+    min-height: 25px;
+
+    color: #888888;
+    font-size: 9px;
+    letter-spacing: 0.5px;
 }
